@@ -35,7 +35,7 @@ if(isset($_POST["so_cu"]) && isset($_POST["so_moi"]) && isset($_POST["gia"])){
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Chỉ số cũ</div>                
                 
                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                    <input type="number" name="chủ hộ" id="" class="form-control" value="<?php if(isset($_POST["so_cu"])) echo $_POST["so_cu"] ?>" required="required">(KW)
+                    <input type="number" name="chỉ số cũ" id="" class="form-control" value="<?php if(isset($_POST["so_cu"])) echo $_POST["so_cu"] ?>" required="required">(KW)
                 </div>                
             </div>
 
@@ -43,7 +43,7 @@ if(isset($_POST["so_cu"]) && isset($_POST["so_moi"]) && isset($_POST["gia"])){
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Chỉ số mới</div>                
                 
                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                    <input type="number" name="chủ hộ" id="" class="form-control" value="<?php if(isset($_POST["so_moi"])) echo $_POST["so_moi"] ?>" required="required">(KW)
+                    <input type="number" name="chỉ số mới" id="" class="form-control" value="<?php if(isset($_POST["so_moi"])) echo $_POST["so_moi"] ?>" required="required">(KW)
                 </div>                
             </div>
 
@@ -51,7 +51,7 @@ if(isset($_POST["so_cu"]) && isset($_POST["so_moi"]) && isset($_POST["gia"])){
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Đơn giá</div>                
                 
                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                    <input type="number" name="chủ hộ" id="" class="form-control" value="<?php if(isset($_POST["gia"])) echo $_POST["gia"] ?>" required="required">(VNĐ)
+                    <input type="number" name="đơn giá" id="" class="form-control" value="<?php if(isset($_POST["gia"])) echo $_POST["gia"] ?>" required="required">(VNĐ)
                 </div>                
             </div>
 
@@ -59,7 +59,7 @@ if(isset($_POST["so_cu"]) && isset($_POST["so_moi"]) && isset($_POST["gia"])){
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Số tiền thanh toán</div>                
                 
                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                    <input type="number" name="chủ hộ" id="" class="form-control" value="<?php echo $thanh_toan ?>">(VNĐ)
+                    <input type="number" name="thanh toán" id="" class="form-control" value="<?php echo $thanh_toan ?>">(VNĐ)
                 </div>                
             </div>
 
