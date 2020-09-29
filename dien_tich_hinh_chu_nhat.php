@@ -27,7 +27,7 @@
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Chiều Dài</div>
                 
                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">      
-                    <input type="number" name="chieu dai" class="form-control" id="d" value="<?php if(isset($_POST["chieu_dai"])) echo $_POST["chieu_dai"] ?>" placeholder="nhập chiều dài" required="required">
+                    <input type="number" name="chieu dai" class="form-control" id="" value="<?php if(isset($_POST["chieu_dai"])) echo $_POST["chieu_dai"] ?>" placeholder="nhập chiều dài" required="required">
                 </div>
             </div>
 
@@ -35,7 +35,7 @@
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Chiều Rộng</div>
 
                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                    <input type="number" name="chieu rong" class="form-control" id="r" value="<?php if(isset($_POST["chieu_rong"])) echo $_POST["chieu_rong"] ?>" placeholder="nhập chiều rộng" required="required">
+                    <input type="number" name="chieu rong" class="form-control" id="" value="<?php if(isset($_POST["chieu_rong"])) echo $_POST["chieu_rong"] ?>" placeholder="nhập chiều rộng" required="required">
                 </div>
             </div>
 
@@ -43,7 +43,7 @@
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Diện Tích</div>
                 
                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                    <input type="number" name="dien tich" class="form-control" id="dt" value="<?php echo $dien_tich ?>" placeholder="diện tích ...">
+                    <input type="number" name="dien tich" class="form-control" id="" value="<?php echo $dien_tich ?>" placeholder="diện tích ...">
                 </div>
             </div>
 
