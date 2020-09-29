@@ -27,7 +27,7 @@ if(isset($_POST["so_bd"]) && isset($_POST["so_kt"])){
 <title>Tính toán trên dãy số</title>
 </head>
 <body>
-    <div class="container" style="background: red;">
+    <div class="container">
         <form action="" method="POST" class="form-horizontal" role="form">
                 <div class="form-group">
                     <legend>TÍNH TOÁN TRÊN DÃY SỐ</legend>
@@ -36,12 +36,12 @@ if(isset($_POST["so_bd"]) && isset($_POST["so_kt"])){
                 <div class="form-group" style="display:block;">
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Số bắt đầu: </div>              
                     <div class="col-xs-4">
-                        <input type="text" name="số bắt đầu" id="" class="form-control" value="<?php if(isset($_POST["so_bd"])) echo $_POST["so_bd"] ?>" required="required">   
+                        <input type="text" name="so_bd" id="" class="form-control" value="<?php if(isset($_POST["so_bd"])) echo $_POST["so_bd"] ?>" required="required">   
                     </div>
 
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Số kết thúc: </div>              
                     <div class="col-xs-4">
-                        <input type="text" name="số kết thúc" id="" class="form-control" value="<?php if(isset($_POST["so_kt"])) echo $_POST["so_kt"] ?>" required="required">   
+                        <input type="text" name="so_kt" id="" class="form-control" value="<?php if(isset($_POST["so_kt"])) echo $_POST["so_kt"] ?>" required="required">   
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@ if(isset($_POST["so_bd"]) && isset($_POST["so_kt"])){
                         <div class="col-xs-12">Tổng dãy số</div>
                         
                         <div class="col-xs-12">
-                            <input type="number" name="tổng dãy" class="form-control" id="" value="<?php echo $tong_day ?>">
+                            <input type="number" name="tong day" class="form-control" id="" value="<?php echo $tong_day ?>">
                         </div>
                     </div>                    
                 </div>
@@ -60,7 +60,7 @@ if(isset($_POST["so_bd"]) && isset($_POST["so_kt"])){
                         <div class="col-xs-12">Tích dãy số</div>
                         
                         <div class="col-xs-12">
-                            <input type="number" name="tích dãy" class="form-control" id="" value="<?php echo $tich_day ?>">
+                            <input type="number" name="tich day" class="form-control" id="" value="<?php echo $tich_day ?>">
                         </div>
                     </div>                    
                 </div>
@@ -70,7 +70,7 @@ if(isset($_POST["so_bd"]) && isset($_POST["so_kt"])){
                         <div class="col-xs-12">Tổng số chẵn</div>
                         
                         <div class="col-xs-12">
-                            <input type="number" name="tổng chẵn" class="form-control" id="" value="<?php echo $tong_chan ?>">
+                            <input type="number" name="tong chan" class="form-control" id="" value="<?php echo $tong_chan ?>">
                         </div>
                     </div>                    
                 </div>
@@ -80,7 +80,7 @@ if(isset($_POST["so_bd"]) && isset($_POST["so_kt"])){
                         <div class="col-xs-12">Tổng số lẻ</div>
                         
                         <div class="col-xs-12">
-                            <input type="number" name="tổng lẻ" class="form-control" id="" value="<?php echo $tong_le ?>">
+                            <input type="number" name="tong le" class="form-control" id="" value="<?php echo $tong_le ?>">
                         </div>
                     </div>
                 </div>
