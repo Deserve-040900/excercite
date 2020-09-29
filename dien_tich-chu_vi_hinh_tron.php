@@ -29,7 +29,7 @@ if(isset($_POST["ban_kinh"])){
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Bán kính</div>
                     
                     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">                        
-                        <input type="number" name="bán kính" id="" class="form-control" value="<?php if(isset($_POST["ban_kinh"])) echo $_POST["ban_kinh"] ?>" required="required">
+                        <input type="number" name="ban_kinh" id="" class="form-control" value="<?php if(isset($_POST["ban_kinh"])) echo $_POST["ban_kinh"] ?>" required="required">
                     </div>                                        
                 </div>
 
