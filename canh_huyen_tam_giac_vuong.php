@@ -1,5 +1,7 @@
 <?php
-
+if(isset($_POST["canhA"]) && isset($_POST["canhB"])){
+    $canh_huyen = sqrt(pow($_POST["canhA"],2) + pow($_POST["canhB"],2));
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +26,7 @@
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Cạnh A</div>                
                 
                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">                    
-                    <input type="number" name="cạnh a" id="" class="form-control" value="" required="required">                   
+                    <input type="number" name="canhA" id="" class="form-control" value="<?php if(isset($_POST["canhA"])) echo $_POST["canhA"] ?>" required="required">                   
                 </div>                
             </div>
 
@@ -32,7 +34,7 @@
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Cạnh B</div>                
                 
                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">                    
-                    <input type="number" name="cạnh b" id="" class="form-control" value="" required="required">                   
+                    <input type="number" name="canhB" id="" class="form-control" value="<?php if(isset($_POST["canhB"])) echo $_POST["canhB"] ?>" required="required">                   
                 </div>                
             </div>
 
@@ -40,7 +42,7 @@
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Cạnh huyền</div>                
                 
                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">                    
-                    <input type="number" name="cạnh huyền" id="" class="form-control" value="">                   
+                    <input type="number" name="canh huyen" id="" class="form-control" value="<?php echo $canh_huyen ?>">                   
                 </div>                
             </div>
 
